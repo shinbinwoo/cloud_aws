@@ -12,4 +12,4 @@
 - Có thể RL là một cách tiếp cận tập trung vào việc học để hoàn thành mục tiêu bằng việc tương tác trực tiếp với môi trường.
 - RL giúp **agent**(ở đây là xe chúng ta muốn huấn luyện) có thể làm được **task**(nhiệm vụ ta giao như hoàn thành đường đua...) bằng cách đưa ra những **action** miễn là **maxize reward** (đạt được hiệu suất tối ưu).
 
-![RLSample](img/RLSample. gif)
+![RLSample](img/RLSample.gif)
