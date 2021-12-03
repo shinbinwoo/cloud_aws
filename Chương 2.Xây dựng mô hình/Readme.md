@@ -18,9 +18,10 @@
 
 ### 2.2.3 Thuật toán huấn luyện và siêu tham số.
 
-- PPO: Thuật toán tối ưu hóa với policy gần.
-- SAC: Thuật toán tối ưu với policy ngẫu nhiên.
-- Lựa chọn giữa hai thuật toán huấn luyện.
+- Định nghĩa thuật toán:
+	- PPO: Thuật toán tối ưu hóa với policy gần.
+	- SAC: Thuật toán tối ưu với policy ngẫu nhiên.
+- Lựa chọn giữa hai thuật toán huấn luyện: 
 
 | Proximal Policy Optimization (PPO)  | Soft Actor Critic (SAC) |
 | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
