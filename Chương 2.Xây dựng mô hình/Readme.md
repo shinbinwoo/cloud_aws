@@ -21,6 +21,7 @@
 - PPO: Thuật toán tối ưu hóa với policy gần.
 - SAC: Thuật toán tối ưu với policy ngẫu nhiên.
 - Lựa chọn giữa hai thuật toán huấn luyện.
+
 | Proximal Policy Optimization (PPO)  | Soft Actor Critic (SAC) |
 | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | Hoạt động trong cả không gian hành động rời rạc và liên tục  | Hoạt động trong không gian hành động liên tục  |
@@ -28,6 +29,7 @@
 | Sử dụng regularization   | Thêm entropy vào mục tiêu tối đa  |
 
 - Định nghĩa các siêu tham số: 
+
 | Tham số                                | Định nghĩa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Batch size                               | Số lượng experience xe gần đây được lấy mẫu ngẫu nhiên từ bộ đệm trải nghiệm và được sử dụng để cập nhật trọng số mạng nơ-ron. Nếu bạn có 5120 experience trong bộ đệm và chỉ định kích thước batch là 512, sau đó bỏ qua lấy mẫu ngẫu nhiên, bạn sẽ nhận được 10 batch experience. Lần lượt, mỗi batch sẽ được sử dụng để cập nhật trọng số mạng thần kinh của bạn trong quá trình đào tạo. Sử dụng kích thước batch lớn hơn để thúc đẩy cập nhật ổn định và trơn tru hơn đối với trọng số mạng nơ-ron, nhưng lưu ý khả năng quá trình đào tạo có thể chậm hơn. |
