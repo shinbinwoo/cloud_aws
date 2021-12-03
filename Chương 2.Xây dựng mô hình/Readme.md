@@ -20,8 +20,9 @@
 
 | Proximal Policy Optimization (PPO)  | Soft Actor Critic (SAC) |
 | :----------------------------------------------------------------------: | :----------------------------------------------------------------------: |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Hoạt động trong cả không gian hành động rời rạc và liên tục  | Hoạt động trong không gian hành động liên tục  |
+| Học từ những lần thử bây giờ   | Học từ những quan lỗi của mô hình trước  |
+| Sử dụng regularization   | Thêm entropy vào mục tiêu tối đa  |
 
 
 | Parameter                                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
