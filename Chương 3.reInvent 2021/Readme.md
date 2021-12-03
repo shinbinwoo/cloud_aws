@@ -18,3 +18,4 @@
 ![4](img/4.jpg)
 ## 3.3 Tự tạo đường đua cho riêng mình.
 - Ở trang chính của AWS DeepRacer, chọn mục **Community races** ở bên phải:
+![6](img/6.jpg)
