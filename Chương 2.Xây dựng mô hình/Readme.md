@@ -18,10 +18,10 @@
 
 ### 2.2.3 Thuật toán huấn luyện và siêu tham số.
 
-| PPO                                | SAC                                                                                                                                                                         |                                                                       |
-| Works in both discrete and continuous action spaces Works in a continuous action space.|
-|On-policy|Off-policy|
-|Off-policy|Adds entropy to the maximization objective|
+| Proximal Policy Optimization (PPO)  | Soft Actor Critic (SAC) |
+| :----------------------------------------------------------------------: | :----------------------------------------------------------------------: |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 
 | Parameter                                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
